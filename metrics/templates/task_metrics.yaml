@@ -1,0 +1,57 @@
+# Task Metrics Template
+# Please fill out all fields below for your completed task
+
+task_info:
+  category: "" # unit-tests, functions, code-review, documentation
+  task_name: "" # Name of the specific task
+  tool_used: "" # Edge Copilot or GitHub Copilot
+  week: 0 # 1 or 2
+  participant_name: "" # Your name
+  project_team: "" # Logistic Regression, Pre-processing, or ACG
+
+time_metrics:
+  start_time: "" # When you started the task (YYYY-MM-DD HH:MM)
+  end_time: "" # When you completed the task (YYYY-MM-DD HH:MM)
+  total_minutes: 0 # Total time spent in minutes
+  breaks_minutes: 0 # Time spent on breaks (if any)
+
+performance_metrics:
+  iterations: 0 # Number of attempts/revisions needed
+  quality_score: 0 # Self-assessed quality (1-5, where 5 is highest)
+  satisfaction_rating: 0 # Tool satisfaction (1-5, where 5 is most satisfied)
+
+tool_interaction:
+  prompt_count: 0 # Number of prompts/queries submitted to the tool
+  character_limitations_encountered: false # Did you hit character limits? (true/false)
+  context_switching_count: 0 # Number of times you had to switch between tool and IDE
+
+specific_capabilities:
+  rs_copilot_integration: # Rate 1-5, where 5 is excellent
+    understanding: 0 # How well did the tool understand RS Copilot patterns?
+    suggestion_quality: 0 # Quality of suggestions related to RS Copilot
+    
+  code_context:
+    understanding: 0 # How well did the tool understand existing code? (1-5)
+    completion_relevance: 0 # How relevant were the completions? (1-5)
+    
+  task_specific: # Depending on task category
+    # For unit tests
+    test_coverage: 0 # How comprehensive were the tests? (1-5)
+    edge_cases_handled: 0 # How well were edge cases handled? (1-5)
+    
+    # For functions
+    functionality_completeness: 0 # How complete was the functionality? (1-5)
+    code_efficiency: 0 # How efficient was the code? (1-5)
+    
+    # For code review
+    issue_identification: 0 # How well were issues identified? (1-5)
+    suggestion_quality: 0 # Quality of improvement suggestions (1-5)
+    
+    # For documentation
+    clarity: 0 # How clear was the documentation? (1-5)
+    completeness: 0 # How complete was the documentation? (1-5)
+
+notes:
+  strengths: "" # What did the tool do well?
+  limitations: "" # What limitations did you encounter?
+  notable_observations: "" # Any other observations worth mentioning

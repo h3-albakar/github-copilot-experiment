@@ -1,0 +1,56 @@
+# Qualitative Feedback Template
+# Please provide detailed feedback about your experience with the tool
+
+participant_info:
+  name: "" # Your name
+  project_team: "" # Logistic Regression, Pre-processing, or ACG
+  tool_used: "" # Edge Copilot or GitHub Copilot
+  week: 0 # 1 or 2
+
+overall_experience:
+  general_impression: "" # Overall impression of the tool
+  ease_of_use: 0 # Rating from 1-5, where 5 is easiest to use
+  learning_curve: 0 # Rating from 1-5, where 5 is easiest to learn
+  productivity_impact: 0 # Rating from 1-5, where 5 is highest positive impact
+
+tool_specific_feedback:
+  # Edge Copilot specific (if applicable)
+  edge_copilot:
+    browser_integration: "" # How well did it integrate with your browser workflow?
+    context_limitations: "" # Issues with context or character limitations?
+    switching_overhead: "" # Impact of switching between browser and IDE
+    
+  # GitHub Copilot specific (if applicable)
+  github_copilot:
+    ide_integration: "" # How well did it integrate with your IDE?
+    context_awareness: "" # How well did it understand your codebase?
+    suggestion_relevance: "" # How relevant were the suggestions to your task?
+
+rs_copilot_integration:
+  pattern_recognition: "" # How well did the tool recognize RS Copilot patterns?
+  code_standards_adherence: "" # Did suggestions follow RS Copilot standards?
+  library_knowledge: "" # Did the tool demonstrate knowledge of RS Copilot library?
+  examples: "" # Specific examples of RS Copilot integration success/failure
+
+workflow_impact:
+  time_savings: "" # Describe any time savings experienced
+  quality_improvements: "" # Impact on code/documentation quality
+  learning_benefits: "" # Did the tool help you learn new techniques?
+  frustration_points: "" # What aspects were frustrating or limiting?
+
+comparison_insights:
+  key_differences: "" # Key differences noticed between Edge and GitHub Copilot
+  preference_reasoning: "" # Why you might prefer one tool over the other
+  specific_advantages: "" # Specific advantages of each tool
+  specific_disadvantages: "" # Specific disadvantages of each tool
+
+business_value_assessment:
+  productivity_estimate: "" # Estimated productivity improvement (percentage or description)
+  quality_impact: "" # Impact on work quality
+  learning_curve_roi: "" # How quickly could value be realized given learning curve?
+  recommendation: "" # Would you recommend this tool for graduates? Why?
+
+additional_comments:
+  suggestions: "" # Suggestions for tool improvements
+  experiment_feedback: "" # Feedback on the experiment itself
+  other_observations: "" # Any other observations not covered above

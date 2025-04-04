@@ -1,0 +1,152 @@
+# Cline Rules for GitHub Copilot Experiment
+
+## Project Patterns
+
+### Directory Structure
+- Task categories are organized in `tasks/` with subdirectories for each type
+- Each task type has `from-scratch/` and `context-based/` variants
+- Metrics templates are in `metrics/templates/`
+- Analysis scripts are in `analysis/`
+- Supporting resources are in `resources/`
+- RS Copilot examples are in `rs-copilot-examples/`
+- Cline documentation is in `memory-bank/`
+
+### Naming Conventions
+- Task files are named with a pattern of `task{number}.md`
+- Metrics templates use descriptive names like `task_metrics.yaml` and `qualitative.yaml`
+- Analysis scripts use descriptive names like `metrics_aggregator.py` and `visualizations.py`
+- Memory bank files follow a specific naming pattern (projectbrief.md, productContext.md, etc.)
+
+### Code Style
+- Python code follows PEP 8 conventions
+- Docstrings use the Google style format
+- YAML files use 2-space indentation
+- Markdown files use ATX-style headers (# for h1, ## for h2, etc.)
+
+## Task Patterns
+
+### Unit Testing Tasks
+- Focus on testing data science functionality
+- Include both normal cases and edge cases
+- Follow pytest conventions
+- Aim for 90% code coverage
+
+### Function Creation Tasks
+- Focus on data preprocessing and analysis functions
+- Include clear requirements and examples
+- Specify expected inputs and outputs
+- Keep complexity appropriate for 20-30 minute completion time
+
+### Code Review Tasks
+- Provide code samples with intentional issues to identify
+- Include a mix of bugs, performance issues, and style problems
+- Focus on data science and financial domain code
+- Require specific improvement suggestions
+
+### Documentation Tasks
+- Focus on clear explanation of data science concepts
+- Include function/method documentation
+- Require examples of usage
+- Follow consistent documentation style
+
+## RS Copilot Patterns
+
+### RS Copilot Library
+- RS Copilot is Lloyds Banking Group's Risk Science standardization library
+- It provides patterns and standards for data science code
+- It's used to test integration capabilities of AI tools
+- Example patterns are provided in `rs-copilot-examples/`
+
+### RS Copilot Prompts
+- Prompts for using RS Copilot with AI assistants are in `rs_copilot_prompts.md`
+- These include long function optimization and modularized optimization prompts
+- They're designed to guide AI tools to produce better code optimizations
+- They focus on code structure, readability, and maintainability
+
+## Metrics Collection Patterns
+
+### Quantitative Metrics
+- Task completion time
+- Number of iterations required
+- Self-assessed quality scores
+- Tool satisfaction ratings
+- Context switching frequency
+- Character limitation impacts
+
+### Qualitative Feedback
+- General impressions
+- Specific examples of tool benefits
+- Observations about RS Copilot integration
+- Preferences and recommendations
+
+## Analysis Patterns
+
+### Data Processing
+- Load metrics from YAML files
+- Group by task category and tool
+- Calculate comparative metrics
+- Generate visualizations
+
+### ROI Calculation
+- Based on time savings
+- Considers graduate hourly cost
+- Compares against license cost
+- Calculates payback period
+
+## Project Intelligence
+
+### Key Stakeholders
+- Graduate Data Scientists: Primary users
+- Team Leaders: Responsible for graduate productivity
+- Technology Leadership: Decision-makers for tool investments
+- Risk Science Team: Owners of the RS Copilot library
+
+### Critical Success Factors
+- Demonstrating time savings
+- Showing quality improvements
+- Proving positive ROI
+- Highlighting RS Copilot integration benefits
+
+### Timeline Constraints
+- 2-week experiment duration
+- Maximum 2 hours per graduate
+- Tasks designed for 20-30 minute completion
+
+### Tool Limitations
+- Edge Copilot: Browser-based with character limitations
+- GitHub Copilot: IDE-integrated with context awareness
+- Both tools may have varying performance with RS Copilot patterns
+
+## Workflow Patterns
+
+### Experiment Workflow
+1. Week 1: Complete tasks with Edge Copilot
+2. Week 2: Complete comparable tasks with GitHub Copilot
+3. Record metrics using templates
+4. Submit results via pull requests
+5. Analyze results and calculate ROI
+6. Generate recommendation for leadership
+
+### Analysis Workflow
+1. Collect metrics from submissions
+2. Process metrics using analysis scripts
+3. Generate visualizations
+4. Calculate ROI and business value
+5. Compile findings into final report
+
+## Known Challenges
+
+### Task Comparability
+- Week 1 and Week 2 tasks must be comparable but not identical
+- Complexity must be balanced across tasks
+- Tasks must test the key differentiators between tools
+
+### Metrics Subjectivity
+- Self-assessed quality scores are inherently subjective
+- May need to normalize scores across participants
+- Qualitative feedback is important for context
+
+### Tool Familiarity
+- Participants may be more familiar with Edge Copilot
+- Week 2 results may be affected by learning curve for GitHub Copilot
+- Need to account for this in analysis
